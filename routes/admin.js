@@ -7,6 +7,7 @@ const adminController = require("../controller/products");
 const login = require("../controller/UserController");
 
 //get requests
+//modify
 
 router.post("/login", login);
 router.get("/products/all", adminController.getProductsAll);
